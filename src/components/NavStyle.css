@@ -1,0 +1,92 @@
+.navigation-editor{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.navigation-block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(54, 54, 54, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-block ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 10px;
+
+}
+
+/* .Navigators li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+} */
+
+.Navigators li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* logo styling */
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+/* the editor components */
+
+.editor-comps{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.editor-comps button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #4d00db;
+    color: #fff;
+}
+
+.editor-comps .color-selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
